@@ -1,0 +1,27 @@
+Hola, gracias por su amable tiempo para probar mi aplicacion, los pasos de instalacion son los siguientes:
+
+Tener PHP 8+ instalado
+Tener composer en su version mas reciente
+
+Primeramente corremos:
+
+$composer install
+
+Para instalar todas las dependencias
+
+Luego procedemos a importar la base de datos que se ha adjuntado en el zip:
+
+procedemos a crear un archivo .env en el root del archivo con las siguientes configuraciones:
+
+database.default.hostname = localhost
+database.default.database = prueba_bryan
+database.default.username = su_username
+database.default.password = su_password
+
+Luego de eso procedemos a ejecutar en consola:
+
+$php spark serve
+
+Y la aplicacion esta corriendo en el link http://localhost:8080/.
+
+Espero sea de su agrado la app.
